@@ -1,21 +1,21 @@
 # GameVault-Hub - Solana
 Este proyecto es un sistema de gestión de Avatares e Ítems para un videojuego en la red de Solana. La idea es tener un registro seguro y descentralizado de los personajes de los jugadores y su inventario, utilizando un modelo relacional basado en PDAs (Program Derived Addresses) donde cada ítem es una cuenta independiente vinculada a su avatar correspondiente.
 
-🛠️ Tecnologías y Herramientas
+#🛠️ Tecnologías y Herramientas
 Lenguaje: Rust.
 
 Framework: Anchor.
 
 Entorno: Solana Playground / Entorno de desarrollo local.
 
-Archivos del Repositorio
+#📂 Archivos del Repositorio
 lib.rs: Código principal del contrato inteligente en Rust con la lógica del juego.
 
 game_crud_hub_test.ts: Script en TypeScript (Mocha/Chai) para probar que la creación de avatares y la gestión del inventario funcionan correctamente.
 
 README.md: Documentación y guía de uso del proyecto.
 
-Instrucciones de Uso
+#🚀 Instrucciones de Uso
 1. Crear un Avatar
 Ejecutar la función crear_avatar para inicializar el personaje del jugador.
 
